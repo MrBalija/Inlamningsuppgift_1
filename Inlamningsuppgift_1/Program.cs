@@ -34,14 +34,14 @@ namespace Inlamningsuppgift_1
                 
                 Console.WriteLine("Please enter two optional operators ('+', '-', '*', '/') for your equation:");
                 
-                //FIRST operator: if string doesn't match any of the operators, loop the question.
+                //OPERATOR: if first input-operator doesn't match any of the optional operators, loop the question.
                 do
                 {
                     Console.Write("> Enter first operator:");
                     userInputFirstOperator = (Console.ReadLine());
                 } while (userInputFirstOperator != "+" && userInputFirstOperator != "-" && userInputFirstOperator != "*" && userInputFirstOperator != "/");
-                
-                //SECOND operator: if string doesn't match any of the operators, loop the question.
+
+                //OPERATOR: if second input-operator doesn't match any of the optional operators, loop the question.
                 do
                 {
                 Console.Write("> Enter second operator:");
